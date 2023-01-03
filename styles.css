@@ -1,0 +1,73 @@
+:root{
+    --corDestaque: #ff8e3c;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+.intro-text{
+    padding-top: 50px;
+}
+.intro-text > h4{
+    font-size: 45px;
+}
+
+.spanDestaque {
+    font-size: 60px;
+    color: var(--corDestaque);
+}
+.intro-icons{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 25px ;
+}
+
+.intro-icons > a > i {
+    color: black;
+    font-size: 45px;
+}
+.intro-icons > a > i:hover {
+    color: var(--corDestaque);
+    font-size: 45px;
+    transform: scale(1.5);
+}
+.intro-icons > a {
+    margin-left: 20px;
+}
+
+.btnSobreMim{
+    font-size: 20px;
+    background-color:#ff8e3c;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+}
+.noLinks{
+    text-decoration: none;
+    cursor: auto;
+}
+.sobremim{
+    background-color: black;
+    margin-top: 60px;
+}
+.destaque{
+    color: var(--corDestaque);
+}
+.branco{
+    color: white;
+}
+.menor{
+    font-size: 14px;
+}
+.textBx > p {
+    color: white;
+}
+.imagem{
+    max-width: 100%;
+}
