@@ -63,7 +63,7 @@ p{
     color: white;
 }
 .menor{
-    font-size: 14px;
+    font-size: 16px;
 }
 .textBx > p {
     color: white;
@@ -71,3 +71,34 @@ p{
 .imagem{
     max-width: 100%;
 }
+.preto{
+    color: black;
+}
+.card-title{
+    padding-top: 10px;
+}
+.certificados{
+    background-color: black;
+}
+.inst{
+    color: var(--corDestaque);
+}
+.certificados .container .row a{
+    text-decoration: none;
+    color: white;
+}
+.certificados .container .row a:hover{
+    text-decoration-line: underline;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: #ff8e3c !important;
+    border-color: black  !important;
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 50%;
+        margin: 0;
+    }
+  }
