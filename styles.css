@@ -142,6 +142,11 @@ p{
     letter-spacing: 1px;
     font-size: 1em;
 }
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ff8e3c !important;
+    color: #fff !important;
+    outline: #ff8e3c !important;
+}
 
 @media only screen and (max-width: 600px) {
     .card{
