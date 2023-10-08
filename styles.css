@@ -1,12 +1,13 @@
 :root{
+
     /* --corDestaque: #9400d3; */
     /* --corSecundaria: black; */
     
-    /* --corDestaque: #fca311;
-    --corSecundaria: #14213d; */
+    /* --corDestaque: #fca311; */
+    /* --corSecundaria: #14213d; */
 
     --corDestaque: #fca311;
-    --corSecundaria: #14213d;
+    --corSecundaria: #14213d; 
 }
 
 html{
@@ -63,9 +64,14 @@ p{
     cursor: auto;
 }
 .sobremim{
-    background-color: var(--corSecundaria);
-    margin-top: 60px;
+    /* background-color: var(--corSecundaria); */
+    /* margin-top: 20px; */
 }
+
+.sobremim > p{
+    color: black;
+}
+
 .destaque{
     color: var(--corDestaque);
 }
@@ -75,8 +81,10 @@ p{
 .menor{
     font-size: 16px;
 }
-.textBx > p {
-    color: white;
+
+/* Sobre MIM */
+.textBx > p { 
+    color: black;
 }
 .imagem{
     max-width: 100%;
@@ -376,12 +384,16 @@ p{
  display: block;
  }
 
-
- .pt-100{
-    padding-top:100px;
+#experience{
+    background-color: var(--corSecundaria);
+    color: white;
+    margin-top: 40px;
+}
+.pt-100{
+    padding-top:20px;
 }
 .pb-100{
-    padding-bottom:100px;
+    padding-bottom:25px;
 }
 .section-title {
   margin-bottom: 60px;
@@ -408,6 +420,11 @@ p{
 	left: 50%;
 	margin-left: -30px;
 }
+
+.conhecimentos > h4{
+    margin-top: 50px;
+}
+
 .section-title h4:after {
 	position: absolute;
 	background-color: var(--corDestaque);
@@ -478,13 +495,45 @@ ul.timeline-list li:before {
 }
 .timeline_content span {
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: bold;
 	font-family: revert;
-	color: var(--corDestaque);
+	color: #ff9e00;
 }
 
 
 
+.comma-list {
+    padding: 0;
+    font-size: 22px;
+    & > * {
+      display: inline;
+      
+      &:after {
+        content: ',';
+      }
+      
+      &:last-child:after {
+        content: '';
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .comma-list {
+        list-style: square;
+        padding-left: 30px;
+    
+      & > * {
+          display: list-item;
+          width: 33%;
+          float: left;
+        
+        &:after {
+          content: '';
+        }
+      }
+    }
+  }
 
  
  /* Extra small devices (phones, 576px and down) */
