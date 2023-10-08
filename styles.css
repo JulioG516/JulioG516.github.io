@@ -1,10 +1,10 @@
 :root{
 
     /* --corDestaque: #9400d3; */
-    /* --corSecundaria: black; */
+    /* --corSecundaria: black; 260036 */
     
     /* --corDestaque: #fca311; */
-    /* --corSecundaria: #14213d; */
+    /* --corSecundaria: #14213d;  */
 
     --corDestaque: #fca311;
     --corSecundaria: #14213d; 
@@ -69,6 +69,10 @@ p{
 }
 
 .sobremim > p{
+    color: black;
+}
+
+.destaque-preto{
     color: black;
 }
 
