@@ -39,6 +39,10 @@ p{
     font-weight: bold;
     background-color: var(--corSecundaria);
  }
+ .contato  h1{
+    margin-top: 20px;
+ }
+
 
 .intro-icons > a > i {
     color: white;
@@ -72,6 +76,9 @@ p{
     /* background-color: var(--corSecundaria); */
     /* margin-top: 20px; */
     color: black;
+}
+li::marker{
+    color: var(--corDestaque)
 }
 
 .sobremim > p{
@@ -532,7 +539,7 @@ ul.timeline-list li:before {
   
   @media (min-width: 768px) {
     .comma-list {
-        list-style: square;
+        list-style: disc;
         padding-left: 30px;
     
       & > * {
