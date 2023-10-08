@@ -34,9 +34,14 @@ p{
     padding: 15px;
     font-size: 25px ;
 }
+.contato{
+    color: var(--corDestaque);
+    font-weight: bold;
+    background-color: var(--corSecundaria);
+ }
 
 .intro-icons > a > i {
-    color: black;
+    color: white;
     font-size: 45px;
 }
 .intro-icons > a > i:hover {
@@ -66,6 +71,7 @@ p{
 .sobremim{
     /* background-color: var(--corSecundaria); */
     /* margin-top: 20px; */
+    color: black;
 }
 
 .sobremim > p{
@@ -387,6 +393,8 @@ p{
  .StepProgress strong {
  display: block;
  }
+
+
 
 #experience{
     background-color: var(--corSecundaria);
